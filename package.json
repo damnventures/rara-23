@@ -23,8 +23,12 @@
   },
   "dependencies": {
     "@headlessui/react": "^1.7.10",
+    "@plasmicapp/cli": "^0.1.274",
+    "@plasmicapp/loader-nextjs": "^1.0.270",
+    "@plasmicapp/react-web": "^0.2.209",
     "@vercel/og": "^0.1.0",
     "clsx": "^1.2.1",
+    "encoding": "^0.1.13",
     "framer-motion": "^8.4.0",
     "is-empty-iterable": "^3.0.0",
     "next": "13.3.1",

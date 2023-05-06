@@ -3,7 +3,13 @@ import { cookies } from 'next/headers';
 import CartButton from './button';
 
 export default async function Cart() {
-  const cartId = cookies().get('cartId')?.value;
+  var cartId;
+  try {
+    cartId = cookies()?.get('cartId')?.value;
+  } catch (error) {
+    console.log(error);    
+  }
+  
   let cartIdUpdated = false;
   let cart;
 
