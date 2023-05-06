@@ -16,6 +16,9 @@
 # production
 /build
 
+del-[[...catchall]]
+del-[[...catchall]]/
+
 # misc
 .DS_Store
 *.pem
